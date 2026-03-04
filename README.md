@@ -11,4 +11,4 @@ Data preprocessing : removed duplicate data
 Model : CNN with architecture from scratch and CNN with pre-trained (transfer learning) models (EfficientNetB2 and MobileNetV2)
 
 ## Conclusion
-These models didn't really make a good performance on the dataset, but MobileNetV2 with dropout and batch normalization had a  better performance compared to the other 2 in classifying the batik images, with an accuracy of 0.65
+These models didn't really make a good performance on the dataset, but EfficientNetB2 with less batch size and augmentation had a better performance compared to the other 2 in classifying the batik images, with an accuracy of 0.65
